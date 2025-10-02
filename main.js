@@ -45,8 +45,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // --- ABRIR modal1 ---
-    if (target.closest(".div369[role='button']")) {
-      const trigger = target.closest(".div369[role='button']");
+    if (target.closest(".div367[role='button']")) {
+      const trigger = target.closest(".div367[role='button']");
       const modal = trigger.querySelector(".modal1");
       if (modal) modal.style.display = "flex";
     }
